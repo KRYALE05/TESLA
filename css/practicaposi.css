@@ -1,0 +1,50 @@
+/**{
+    margin-top: 2%;
+}
+.rectangulo
+{
+    width: 400px;
+    height: 500px;
+    background-color: gray;
+    position: absolute
+}
+.circulo
+{
+
+    width: 200px;
+    height: 200px;
+    background-color: fuchsia;
+    border-radius: 100px;
+    position: absolute;
+    left: 25%;
+    bottom: 80%;
+}*/
+
+.p1
+{
+    background-color: blueviolet;
+    width: 200px;
+    height: 400px;
+    position: relative;
+    /*z-index: 1; esto se le asigna un valor y el que tenga el valor mayor queda delante */
+    
+}
+.p2
+{
+    background-color: aquamarine;
+    width: 200px;
+    height: 400px;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+}
+.p3
+{
+    background-color: blue;
+    width: 200px;
+    height: 400px;
+    position: relative;
+    bottom: 300px;
+    left: 50px;
+
+}

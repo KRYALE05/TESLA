@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.transformar div
+{
+    width: 300px;
+    height: 300px;
+    background-color: navy;
+    color: aliceblue;
+   /* transform: translate(20%, 20%);*/
+}
+.escalar div
+{
+    width: 300px;
+    height: 300px;
+    background-color: navy;
+    color: aliceblue;
+   /* transform: translate(20%, 20%);*/
+}
+.rotar div
+{
+    width: 300px;
+    height: 300px;
+    background-color: navy;
+    color: aliceblue;
+   /* transform: translate(20%, 20%);*/
+}
+.desformar div
+{
+    width: 300px;
+    height: 300px;
+    background-color: navy;
+    color: aliceblue;
+   /* transform: translate(20%, 20%);*/
+}
+.varias div
+{
+    width: 300px;
+    height: 300px;
+    background-color: navy;
+    color: aliceblue;
+   /* transform: translate(20%, 20%);*/
+}
+.transformar div:hover
+{
+    transform: translate(20%, 20%); /*lo traslada en el eje x,y*/
+    cursor: pointer;/*cambia el puntero a manito*/
+    background-color: aquamarine;
+    color: navy;
+
+}
+.escalar div:active /*active funciona solo haciendo click, el click es el detonante para la acción */
+{
+    transform: scale(0.5); /*lo traslada en el eje x,y*/
+    cursor: pointer;/*cambia el puntero a manito*/
+    background-color: aquamarine;
+    color: navy;
+
+}
+.rotar div:hover /*active funciona solo haciendo click, el click es el detonante para la acción */
+{
+    transform: rotate(45deg); /*funciona con grados*/
+    cursor: pointer;/*cambia el puntero a manito*/
+    background-color: aquamarine;
+    color: navy;
+
+}
+.desformar div:hover 
+{
+    transform: skew(2deg, 25deg); /*funciona con grados*/
+    cursor: pointer;/*cambia el puntero a manito*/
+    background-color: aquamarine;
+    color: navy;
+
+}
+.varias div:hover 
+{
+    transform: translate(0, 50%) rotate(360deg) scale(2); /*funciona con grados*/
+    cursor: pointer;/*cambia el puntero a manito*/
+    background-color: aquamarine;
+    color: navy;
+    transition: transform 2s;
+    transition: all 2s;
+
+}

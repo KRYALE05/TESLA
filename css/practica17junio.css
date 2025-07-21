@@ -1,0 +1,54 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+main
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section
+{
+    margin: 5%;
+    background-color: aquamarine;
+    width: 28%;
+    height: 28%;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 2px 3px 2px gray;
+
+}
+section div
+{
+    width: 100%;
+    gap: 2%;
+    align-items: center;
+    
+}
+img
+{
+    align-self: center;
+}
+.card1:hover
+{
+    transform: rotate(45deg);
+    transition: 2s;
+}
+.card2:hover
+{
+    transform: rotate(-45deg);
+    transition: 2s;
+}
+.card3
+{
+    transform: rotate(45deg);
+    transition: 2s;
+}
+.card4
+{
+    transform: rotate(-45deg);
+    transition: 2s;
+}

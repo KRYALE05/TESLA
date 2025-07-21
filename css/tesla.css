@@ -1,0 +1,181 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left:  1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    position: sticky;
+    top: 0%;
+    background-color: rgb(238, 238, 238);
+
+}
+body
+{
+   
+    background-color: rgb(238, 238, 238);
+    font-family: "Lexend Deca", sans-serif;
+}
+ul
+{
+    display: flex;
+    list-style: none;
+}
+.encabezado1, .encabezado2
+{
+ flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover
+{
+   text-decoration: underline; 
+}
+li 
+{
+    color: black;
+    padding: 10px;
+}
+.logo
+{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+.choose
+{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.chuzo
+{
+    width: 50%;
+}
+h1
+{
+    align-self: center;
+}
+.tamaño
+{
+    width: 50%;
+   
+}
+.modelos
+{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;  
+}
+.tipocarro
+{
+    width: 50%;
+   
+}
+.card
+{
+    display: flex;
+    margin: 15px;
+    background-color: white;
+}
+.card1
+{   
+    width: 50%;
+    padding: 20px;
+}
+.boton
+{
+   
+    background-color: black;
+    color: aliceblue;
+    padding: 2% 30% 2% 30%;
+    border-radius: 30px;
+    margin-top: 20px;
+   
+   
+}
+.boton:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.contacto
+{
+    display: flex;
+}
+.mapa
+{
+    width: 60%;
+    padding: 3%;
+    
+}
+.habladamapa
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.botonesgrandes
+{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    padding-top: 2%;
+    
+    /*gap: 3%;*/
+   
+}
+.cuadro
+{
+    display: flex;
+    background-color: black; 
+    padding: 10% 40% 10% 40%;
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 3%;
+    padding-top: 10%;
+ 
+}
+
+.cuadro:hover
+{
+    text-decoration: underline;
+    font-weight: bold
+}
+.fijo 
+{
+   /* background-color: blue;*/
+    width: 60px;
+    justify-content: center;
+    height: 60px;
+    margin-top: 3%;
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    border-radius: 100%;
+    
+}
+.fijo a
+{
+    align-self: center;
+    margin-top: 2%;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    
+}
